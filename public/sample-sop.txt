@@ -1,0 +1,111 @@
+E-commerce Customer Support SOP
+
+STANDARD OPERATING PROCEDURE
+Subject: E-commerce Customer Support - Product Return & Refund Process
+Department: Customer Service
+Effective Date: 2024-01-15
+Version: 2.1
+
+1. INITIAL CUSTOMER CONTACT
+   1.1 Greeting and Acknowledgment
+       - Answer within 2 rings or 30 seconds for chat
+       - Use professional greeting: "Thank you for contacting [Company Name]. My name is [Agent Name]. How may I assist you today?"
+       - Listen actively to customer's concern without interruption
+       - Express empathy and understanding
+
+   1.2 Information Gathering
+       - Collect customer's full name and contact information
+       - Obtain order number (format: ORD-YYYYMMDD-####)
+       - Verify customer identity using last 4 digits of phone number
+       - Document purchase date and product details
+       - Record reason for return/refund request
+
+2. ELIGIBILITY VERIFICATION
+   2.1 Return Policy Check
+       - Verify return window: 30 days from delivery date
+       - Confirm product category eligibility (some exclusions apply)
+       - Check product condition requirements
+       - Review original payment method used
+
+   2.2 Special Circumstances
+       - Damaged/defective items: No time limit, full refund
+       - Wrong item shipped: Company error, expedited replacement
+       - Customer dissatisfaction: Case-by-case review
+       - Holiday purchases: Extended return period (check seasonal policy)
+
+3. PROCESSING PROCEDURES
+   3.1 Approved Returns
+       - Generate return authorization number (RMA)
+       - Email return shipping label to customer
+       - Provide return tracking instructions
+       - Set expectation: 3-5 business days processing after receipt
+       - Update customer account with return status
+
+   3.2 Refund Processing
+       - Process refund to original payment method
+       - Deduct return shipping costs if applicable ($5.99 standard)
+       - Apply restocking fee if applicable (15% for opened electronics)
+       - Send refund confirmation email with transaction details
+       - Update order status in system
+
+4. CUSTOMER COMMUNICATION
+   4.1 Immediate Response
+       - Provide clear explanation of next steps
+       - Send confirmation email within 1 hour
+       - Include RMA number and return instructions
+       - Offer alternative solutions if return not approved
+
+   4.2 Follow-up Communication
+       - Send return shipping label within 4 hours
+       - Notify customer when return is received
+       - Confirm refund processing completion
+       - Request feedback on service experience
+
+5. ESCALATION PROCEDURES
+   5.1 Supervisor Escalation Required
+       - Refund amount exceeds $500
+       - Customer requests exception to policy
+       - Suspected fraudulent activity
+       - Customer demands immediate supervisor
+
+   5.2 Escalation Process
+       - Inform customer of escalation timing (15-30 minutes)
+       - Document all interaction details in ticket
+       - Provide supervisor with complete context
+       - Follow up with customer within 24 hours
+
+6. DOCUMENTATION REQUIREMENTS
+   6.1 Required Documentation
+       - Customer interaction summary
+       - Return reason and category
+       - Resolution provided and timeline
+       - Any exceptions or special handling
+       - Customer satisfaction rating
+
+   6.2 System Updates
+       - Update CRM with interaction details
+       - Modify order status appropriately
+       - Add notes for future reference
+       - Generate return metrics report
+
+7. PERFORMANCE STANDARDS
+   7.1 Response Time Targets
+       - Initial response: Within 2 minutes
+       - Email response: Within 4 hours
+       - Refund processing: 3-5 business days
+       - Follow-up communication: Within 24 hours
+
+   7.2 Quality Metrics
+       - Customer satisfaction score: >4.5/5
+       - First contact resolution: >80%
+       - Return processing accuracy: >98%
+       - Policy compliance: 100%
+
+8. SPECIAL NOTES
+   - Always check for warranty coverage before processing return
+   - Offer store credit as alternative to refund when beneficial
+   - Document any customer feedback for product improvement
+   - Report recurring issues to Product Management team
+   - Maintain professional demeanor throughout interaction
+
+This SOP should be followed consistently to ensure uniform customer service experience and efficient return processing. 

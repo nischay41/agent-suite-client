@@ -1,0 +1,21 @@
+Test SOP Document
+
+This is a simple test SOP document for the Agent Suite platform.
+
+1. Process Overview
+   - This is a basic test procedure
+   - Used for validating file upload functionality
+   - Contains simple steps to demonstrate AI scenario generation
+
+2. Test Steps
+   - Step 1: Verify user authentication
+   - Step 2: Check system permissions
+   - Step 3: Execute test procedure
+   - Step 4: Document results
+
+3. Expected Outcomes
+   - System should respond correctly
+   - All steps should complete successfully
+   - Results should be properly documented
+
+This is a demonstration SOP for testing purposes. 

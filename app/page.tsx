@@ -64,9 +64,9 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-              <Link href="/demo">
+              <Link href="/dashboard">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg">
-                  Try Live Demo
+                  Try Dashboard
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
@@ -155,9 +155,6 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start mb-2">
                     <CardTitle className="text-lg">{sop.title}</CardTitle>
-                    <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">
-                      {sop.category}
-                    </span>
                   </div>
                   <CardDescription>{sop.description}</CardDescription>
                 </CardHeader>
@@ -166,8 +163,8 @@ export default function Home() {
                     {sop.content.substring(0, 100)}...
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-500">{sop.size}</span>
-                    <Link href={`/demo?sop=${sop.id}`}>
+                    <span className="text-sm text-gray-500">Sample SOP</span>
+                    <Link href="/dashboard">
                       <Button size="sm">
                         Try This SOP
                       </Button>

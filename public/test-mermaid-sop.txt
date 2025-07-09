@@ -1,0 +1,46 @@
+Customer Service - Order Processing Standard Operating Procedure
+
+OVERVIEW:
+This procedure outlines the steps for processing customer orders to ensure accurate and timely fulfillment.
+
+PROCESS STEPS:
+
+1. RECEIVE ORDER
+   - Customer submits order through website or phone
+   - System generates order ID
+   - Order details are recorded
+
+2. VALIDATE ORDER
+   - Check product availability
+   - Verify customer information
+   - Validate payment method
+
+3. PAYMENT PROCESSING
+   - Process payment through secure gateway
+   - If payment fails, notify customer
+   - If payment succeeds, proceed to fulfillment
+
+4. FULFILLMENT
+   - Pick items from inventory
+   - Package items securely
+   - Generate shipping label
+
+5. SHIPPING
+   - Ship package to customer
+   - Send tracking information
+   - Update order status
+
+6. COMPLETION
+   - Confirm delivery
+   - Send customer satisfaction survey
+   - Close order
+
+ERROR HANDLING:
+- If product unavailable: Notify customer and offer alternatives
+- If payment fails: Request updated payment information
+- If shipping fails: Retry shipment or contact customer
+
+QUALITY CHECKS:
+- Verify order accuracy before shipping
+- Check package integrity
+- Confirm correct shipping address 

@@ -39,7 +39,7 @@ export interface Scenario {
 }
 
 export interface ScenarioGenerationRequest {
-  count?: number;
+  // No parameters needed - LLM decides based on Mermaid diagram
 }
 
 export interface ScenarioGenerationResponse {
@@ -114,14 +114,13 @@ export const projectsApi = {
 
 // Scenarios API methods
 export const scenariosApi = {
-  // Generate scenarios for a project
+  // Generate scenarios for a project based on Mermaid diagram
   generate: async (
-    projectId: string, 
-    request: ScenarioGenerationRequest = {}
+    projectId: string
   ): Promise<ScenarioGenerationResponse> => {
     const response = await apiClient.post<ScenarioGenerationResponse>(
       `/api/v2/projects/${projectId}/scenarios`,
-      request
+      {} // Empty body - LLM decides scenario count based on Mermaid diagram
     );
     return response.data;
   },
@@ -135,6 +134,12 @@ export const scenariosApi = {
   // Update scenario
   update: async (scenarioId: string, updates: Partial<Scenario>): Promise<Scenario> => {
     const response = await apiClient.put<Scenario>(`/api/v2/scenarios/${scenarioId}`, updates);
+    return response.data;
+  },
+
+  // Create scenario
+  create: async (scenario: Omit<Scenario, 'id' | 'is_edited' | 'created_at' | 'updated_at'>): Promise<Scenario> => {
+    const response = await apiClient.post<Scenario>('/api/v2/scenarios', scenario);
     return response.data;
   },
 
